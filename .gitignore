@@ -1,6 +1,5 @@
 .idea/
 .gradle/
-gradle/
 build/
 settings.gradle
 main.yml
