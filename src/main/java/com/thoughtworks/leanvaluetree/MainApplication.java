@@ -1,11 +1,8 @@
 package com.thoughtworks.leanvaluetree;
 
-import com.thoughtworks.leanvaluetree.healthcheck.TemplateHealthCheck;
 import com.thoughtworks.leanvaluetree.main.db.DumbRepo;
-import com.thoughtworks.leanvaluetree.main.db.PostgresRepo;
 import com.thoughtworks.leanvaluetree.main.db.Repository;
-import com.thoughtworks.leanvaluetree.resources.HelloWorldResource;
-import com.thoughtworks.leanvaluetree.resources.TreeResource;
+import com.thoughtworks.leanvaluetree.api.resources.TreeResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;
 

@@ -1,11 +1,10 @@
-package com.thoughtworks.leanvaluetree.resources;
+package com.thoughtworks.leanvaluetree.api.resources;
 
 import com.codahale.metrics.annotation.Timed;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.thoughtworks.leanvaluetree.main.Node;
 import com.thoughtworks.leanvaluetree.main.ValueTree;
-import com.thoughtworks.leanvaluetree.main.db.DumbRepo;
 import com.thoughtworks.leanvaluetree.main.db.Repository;
 
 import javax.ws.rs.*;

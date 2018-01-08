@@ -1,4 +1,4 @@
-package com.thoughtworks.leanvaluetree.resources;
+package com.thoughtworks.leanvaluetree.api.resources;
 
 import com.thoughtworks.leanvaluetree.main.Node;
 import com.thoughtworks.leanvaluetree.main.ValueTree;
